@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TestLabelPod_Example' do
+  pod 'TestLabelPod', :path => '../'
+
+  target 'TestLabelPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
