@@ -1,0 +1,6 @@
+framework module TestLabelPod {
+  umbrella header "TestLabelPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
